@@ -144,8 +144,8 @@ in {
         craneSource = config.deps.fetchFromGitHub {
           owner = "ipetkov";
           repo = "crane";
-          rev = "v0.19.0";
-          sha256 = "sha256-/mumx8AQ5xFuCJqxCIOFCHTVlxHkMT21idpbgbm/TIE=";
+          rev = "v0.23.3";
+          sha256 = "sha256-K0i9GoNk2To1RQkW348EY4c7RYf3mD74hWlGSc/9sk0=";
         };
         cranePkgs = nixpkgs.pkgs;
         mkRustToolchain = pkgs: pkgs.cargo;
